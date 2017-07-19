@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/AbstracVm.dir/main.cpp.o CMakeFiles/AbstracVm.dir/IOperand.cpp.o CMakeFiles/AbstracVm.dir/Int32.cpp.o CMakeFiles/AbstracVm.dir/IOfactory.cpp.o  -o AbstracVm 

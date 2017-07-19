@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kingh/AbstracVm/IOperand.cpp
+IOperand.h
+/home/kingh/AbstracVm/IOperand.h
+
+/home/kingh/AbstracVm/IOperand.h
+iostream
+-
+
+/home/kingh/AbstracVm/Int32.cpp
+Int32.h
+/home/kingh/AbstracVm/Int32.h
+
+/home/kingh/AbstracVm/Int32.h
+IOperand.h
+/home/kingh/AbstracVm/IOperand.h
+
+/home/kingh/AbstracVm/main.cpp
+iostream
+-
+
