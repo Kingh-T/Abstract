@@ -7,45 +7,45 @@
 
 #include <exception>
 
-struct AbstractVM {
+struct Error {
     struct divisionByZero : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 
     struct emptyStack   : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 
     struct invalidValue : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 
     struct printNotInt8 : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 
-    struct unknownInstruction : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+    struct unknownCommand : public std::exception {
+        char const * what() const _NOEXCEPT;
     };
 
     struct unknownOperation : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 
     struct notEnoughValues : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 
     struct assertionFalse : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 
     struct overflow : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 
     struct underflow : public std::exception {
-        char const * what( void ) const _NOEXCEPT;
+        char const * what() const _NOEXCEPT;
     };
 };
 

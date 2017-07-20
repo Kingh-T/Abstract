@@ -6,7 +6,7 @@
 # ifndef OPERAND_H_DEFINED
     #  define OPERAND_H_DEFINED
     template<class type> class Operand;
-    #  include "operandFactory.hpp"
+    #  include "OperandFactory.h"
 # endif
 
 #include "IOperand.h"
